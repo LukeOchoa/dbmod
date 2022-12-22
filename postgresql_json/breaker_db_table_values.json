@@ -15,5 +15,19 @@
         "INSERT INTO kingtest(id, somdata) values(2, 'two');",
         "INSERT INTO kingtest(id, somdata) values(3, 'three');",
         "INSERT INTO kingtest(id, somdata) values(4, 'four');"
+    ],
+    "netherportal_images": [
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(0, 'breaker1f330638-acf3-4ca8-8df9-7121488dfcf4', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(1, 'breakera0b2b95b-05b4-4ce1-ad5a-c456f23b404d', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(2, 'CallPetaPartOne.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(3, 'DuggyAndLukeEnderColdBoisMeme.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(4, 'JacobIronFarmMeme.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(5, 'RyanSpawnHouseMeme.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(6, 'RyGyDuggy.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(7, 'Some String', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(8, 'SpiderCowboy.png', 'World Spawn', 'naliah@gmail.com');"
+    ],
+    "netherportal_access_rights": [
+        "INSERT INTO netherportal_access_rights(id, netherportals, username) values(0, ARRAY ['World Spawn', 'Lunailah SpawnPoint'], 'luke@gmail.com');"
     ]
 }
